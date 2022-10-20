@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: hsl(216, 12%, 8%);   
+}
+.outer-div{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    background-color:hsl(213, 19%, 18%);
+    padding: 10px;
+    position: relative;
+    
+}
+.outer-div-child1{
+    height: 345px;
+    width: 345px;
+    
+    position: relative;
+
+}
+.subdiv{
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+    margin-right: 10px;
+    
+    
+
+}
+.submit{
+    height: 40px;
+    width: 300px;
+    border-radius:20px ;
+    border: 0px solid;
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+.page1{
+    margin-top: 10px;
+
+}
+.inner-div{
+    margin-top: 20px;
+}
+.child2{
+    width: 215px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:hsl(216, 12%, 8%);
+    text-align: center;
+    margin-left:60px ;
+}
+.buttonscore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 10px;
+
+    
+    
+
+}
+.score{
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px solid;
+    background-color:hsl(216, 12%, 54%)
+    
+}
+span{
+    color:hsl(0, 0%, 100%) ;
+}
+.img2{
+  margin-left:85px;
+  margin-top: 10px;
+}
+.h1style {
+    text-align: center;
+}
+.p1style{
+    margin: 17px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.page1h1{
+    color: hsl(0, 0%, 100%);
+ font-family: 'Overpass', sans-serif;
+    font-weight: 700;    
+    margin-left: 10px;
+}
+.page1p1{
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+h4{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color:hsl(25, 97%, 53%); 
+}
+.score:hover{
+   background-color:hsl(25, 97%, 53%); ;
+}
+.submit:hover{
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);;
+}
